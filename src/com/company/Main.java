@@ -17,7 +17,7 @@ public class Main {
         testEntities.add(new TestEntity("aemm", "123456"));
         testEntities.add(new TestEntity("eman", "1234567"));
         testEntities.add(new TestEntity("nmae", "12345678"));
-
+        System.out.println("");
         List<String> testEntityList = testEntities.parallelStream()
                 .filter(testEntity -> testEntity.getPassword().length()==4)
                 .sorted(comparing(TestEntity::getName))
