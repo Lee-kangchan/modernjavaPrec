@@ -9,7 +9,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
-
     public static void main(String[] args) {
         List<TestEntity> testEntities = new ArrayList<>();
         testEntities.add(new TestEntity("name", "1234"));
